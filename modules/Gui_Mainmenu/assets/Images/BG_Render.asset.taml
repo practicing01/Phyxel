@@ -1,0 +1,9 @@
+<ImageAsset
+    AssetName="Image_BG_Render"
+    ImageFile="BG_Render.png"
+	CellCountX="1"
+    CellCountY="1"
+    CellWidth="800"
+    CellHeight="480"
+	Optimal_Resolution="800 480"/>
+

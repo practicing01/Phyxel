@@ -1,0 +1,54 @@
+<GuiControl
+    Name="Gui_Config_Menu"
+    Profile="gui_profile_modalless"
+    HorizSizing="relative"
+    VertSizing="relative"
+    Position="0 0"
+    Extent="800 480"
+    MinExtent="1 1"
+    Visible="1"
+	HelpTag="0">
+
+	<!-- Music Toggle -->
+	<GuiCheckBoxCtrl
+		Name="Checkbox_Music_Toggle"
+		Profile="GuiCheckBoxProfile"
+		Text="Music Off"
+		ButtonType="ToggleButton"
+		command="Gui_Config_Menu.Music_Toggle();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="330 340"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1"/>
+		
+		<!-- go back to main menu -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Go_Main_Menu"
+		Profile="BlueButtonProfile"
+		Text="Main Menu"
+		ButtonType="PushButton"
+		command="Gui_Config_Menu.Go_Main_Menu();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="0 220"
+		Extent="128 40"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+
+</GuiControl>

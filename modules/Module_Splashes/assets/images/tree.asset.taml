@@ -1,0 +1,8 @@
+<ImageAsset
+    AssetName="Image_Tree"
+    ImageFile="tree.png"
+	CellCountX="1"
+    CellCountY="1"
+    CellWidth="800"
+    CellHeight="480"
+	Optimal_Resolution="800 480"/>

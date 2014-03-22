@@ -1,0 +1,8 @@
+<ImageAsset
+    AssetName="Image_Name"
+    ImageFile="name.png"
+	CellCountX="1"
+    CellCountY="1"
+    CellWidth="140"
+    CellHeight="24"
+	Optimal_Resolution="800 480"/>

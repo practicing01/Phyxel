@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="Animation_Goal"
+    Image="@asset=Module_Gameplay:Image_Goal"
+    AnimationFrames="0 1 2 3 4"
+    AnimationCycle="true"
+	AnimationTime="1.0" />
+

@@ -1,0 +1,38 @@
+function Module_Gui_Instructions_Menu::Scene_Initialize(%this)
+{
+
+%Text="Instructions";
+%Text=%Text NL "To use a card, touch its icon,";
+%Text=%Text NL "then touch the character that will cast the card,";
+%Text=%Text NL "finally, touch the target of the card.";
+%Text=%Text NL "";
+%Text=%Text NL "Some cards can only be cast by your character.";
+%Text=%Text NL "For these cards, touch the skill icon, then the";
+%Text=%Text NL "first target, then the second target of the card.";
+%Text=%Text NL "";
+%Text=%Text NL "Other cards are toggled.  Once a card is toggled on,";
+%Text=%Text NL "to cast it you touch its icon then touch the target";
+%Text=%Text NL "of the card twice.";
+%Text=%Text NL "";
+%Text=%Text NL "Maps may be single-player only.";
+%Text=%Text NL "";
+%Text=%Text NL "This game is in pre-alpha.";
+%Text=%Text NL "";
+%Text=%Text NL "Thank you for playing.";
+
+%this.Gui_Text_ML=new GuiMLTextCtrl()
+{
+Position="0 0";
+HorizSizing="relative";
+VertSizing="relative";
+Text=%Text; 
+Extent=$Resolution;
+isContainer="1";
+Profile="Gui_Profile_Modalless_Text";
+hovertime="1000";
+MaxLength="512";
+};
+
+Canvas.pushDialog(%this.Gui_Text_ML);
+
+}

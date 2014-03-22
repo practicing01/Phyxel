@@ -1,0 +1,8 @@
+<ImageAsset
+    AssetName="Image_Dove_Leftleg"
+    ImageFile="leftleg.png"
+	CellCountX="1"
+    CellCountY="1"
+    CellWidth="4"
+    CellHeight="8"
+	Optimal_Resolution="800 480"/>

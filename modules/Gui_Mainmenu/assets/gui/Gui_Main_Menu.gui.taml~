@@ -1,0 +1,234 @@
+<GuiControl
+    Name="Gui_Main_Menu"
+    Profile="gui_profile_modalless"
+    HorizSizing="relative"
+    VertSizing="relative"
+    Position="0 0"
+    Extent="800 480"
+    MinExtent="1 1"
+    Visible="1"
+	HelpTag="0">
+
+	<!-- connect button -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Connect"
+		Profile="BlueButtonProfile"
+		Text="Connect to Server"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Connect_to_Server();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="659 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+
+			<!-- refresh button -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Refresh"
+		Profile="BlueButtonProfile"
+		Text="Refresh Servers"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Refresh_Servers();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="500 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+
+			
+	<!-- config button -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Config"
+		Profile="BlueButtonProfile"
+		Text="Configure"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Configure();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="0 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />	
+
+	<!-- Instructions Button -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Config"
+		Profile="BlueButtonProfile"
+		Text="Instructions"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Instructions();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="159 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+		
+		<!-- Deck Builder Button -->
+	<GuiButtonCtrl
+		Name="Gui_Button_DeckBuilder"
+		Profile="BlueButtonProfile"
+		Text="Deck Builder"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Deck_Builder_Open();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="0 240"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+		
+	<!-- Select Player Sprite -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Main_Menu_Select_Player_Sprite"
+		Profile="BlueButtonProfile"
+		Text="Select Sprite"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Select_Player_Sprite();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="328 360"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+
+	<!-- Single Player -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Main_Menu_Single_Player"
+		Profile="BlueButtonProfile"
+		Text="Single Player"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Single_Player();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="328 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+		
+	<!-- server list -->
+	<GuiScrollCtrl
+			Name="Gui_Scroller_Serverlist"
+			canSaveDynamicFields="1"
+			isContainer="1"
+			Profile="GuiLightScrollProfile"
+			HorizSizing="relative"
+			VertSizing="relative"
+			Position="599 233"
+			Extent="200 200"
+			MinExtent="1 1"
+			canSave="1"
+			Visible="1"
+			Active="1"
+			hovertime="1000"
+			willFirstRespond="1"
+			hScrollBar="dynamic"
+			vScrollBar="dynamic"
+			constantThumbHeight="0"
+			childMargin="2 3" >
+			
+				<GuiListBoxCtrl 
+					Name="Gui_List_Servers"
+					Profile="gui_list_profile_colored"
+					command=""
+					isContainer="0"
+					HorizSizing="relative"
+					VertSizing="relative"
+					Position="0 0"
+					Extent="200 200"
+					MinExtent="1 1"
+					canSave="1"
+					Visible="1"
+					Active="1"
+					AllowMultipleSelections="0"/>
+	</GuiScrollCtrl>
+	
+	<!-- Player Sprites -->
+	<GuiScrollCtrl
+			Name="Gui_Scroller_Main_Menu_Player_Sprites"
+			canSaveDynamicFields="1"
+			isContainer="1"
+			Profile="GuiLightScrollProfile"
+			HorizSizing="relative"
+			VertSizing="relative"
+			Position="300 140"
+			Extent="200 200"
+			MinExtent="1 1"
+			canSave="1"
+			Visible="1"
+			Active="1"
+			hovertime="1000"
+			willFirstRespond="1"
+			hScrollBar="dynamic"
+			vScrollBar="dynamic"
+			constantThumbHeight="0"
+			childMargin="2 3" >
+			
+				<GuiListBoxCtrl 
+					Name="Gui_List_Main_Menu_Player_Sprites"
+					Profile="gui_list_profile_colored"
+					command=""
+					isContainer="0"
+					HorizSizing="relative"
+					VertSizing="relative"
+					Position="0 0"
+					Extent="200 200"
+					MinExtent="1 1"
+					canSave="1"
+					Visible="1"
+					Active="1"
+					AllowMultipleSelections="0"/>
+	</GuiScrollCtrl>
+
+</GuiControl>

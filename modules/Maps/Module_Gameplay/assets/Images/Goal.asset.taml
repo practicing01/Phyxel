@@ -1,0 +1,9 @@
+<ImageAsset
+    AssetName="Image_Goal"
+    ImageFile="Goal.png"
+	CellCountX="3"
+    CellCountY="2"
+    CellWidth="50"
+    CellHeight="50"
+	Optimal_Resolution="800 480"/>
+

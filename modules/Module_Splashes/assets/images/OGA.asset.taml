@@ -1,0 +1,8 @@
+<ImageAsset
+    AssetName="Image_Splash_OGA"
+    ImageFile="oga.png"
+	CellCountX="2"
+    CellCountY="15"
+    CellWidth="400"
+    CellHeight="40"
+	Optimal_Resolution="800 600"/>

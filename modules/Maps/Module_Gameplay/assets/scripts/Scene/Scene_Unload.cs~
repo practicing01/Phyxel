@@ -1,0 +1,10 @@
+function Module_Gui_Instructions_Menu::Scene_Unload(%this)
+{
+
+Canvas.popDialog(%this.Gui_Text_ML);
+
+Canvas.popDialog(Gui_Instructions_Menu);
+
+%this.Ass_Unload();
+
+}

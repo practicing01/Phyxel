@@ -1,0 +1,33 @@
+<GuiControl
+    Name="Gui_Pause_Menu"
+    Profile="gui_profile_modalless"
+    HorizSizing="relative"
+    VertSizing="relative"
+    Position="0 0"
+    Extent="800 480"
+    MinExtent="1 1"
+    Visible="1"
+	HelpTag="0">
+
+	<!-- Go Back To Main Menu -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Pause_Menu_Go_Main_Menu"
+		Profile="BlueButtonProfile"
+		Text="Main Menu"
+		ButtonType="PushButton"
+		command="Gui_Pause_Menu.Go_Main_Menu();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="328 0"
+		Extent="128 40"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+
+</GuiControl>

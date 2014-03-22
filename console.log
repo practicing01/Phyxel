@@ -1,0 +1,87 @@
+//-------------------------- 3/22/2014 -- 08:41:23 -----
+Console trace is off.
+Activating the OpenGL display device...
+Setting screen mode to 800x600x32 (w)...
+OpenGL Attributes:
+  DoubleBuffer: 1
+  BufferSize: 32, DepthSize: 24, StencilSize: 0
+  Red: 8, Green: 8, Blue: 8, Alpha: 0
+  Accum Red: 16, Green: 16, Blue: 16, Alpha: 16
+OpenGL driver information:
+  Vendor: NVIDIA Corporation
+  Renderer: GeForce GTS 450/PCIe/SSE2
+  Version: 4.3.0 NVIDIA 319.32
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 4)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16.000000)
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  3DFX_texture_compression_FXT1
+  WGL_EXT_swap_control
+ 
+Max Texture Size reported as: 16384
+Selected resolution not available: 800 480 32
+OpenAL Driver Init
+^^Searching for OpenAL at location : /home/practicing01/Desktop/Programming/Projects/Phyxel/lib/libopenal.so.1
+^^Searching for OpenAL at location : /home/practicing01/Desktop/Programming/Projects/Phyxel/libopenal.so.1
+   Loading OpenAL from system (dlopen) path
+OpenAL library loaded.
+OpenAL functions binded.
+   Setting OpenAL output frequency to 22050
+OpenAL Driver Init Success
+goodbye world
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Scene_Unload.cs (6): Unable to find object: '5648' attempting to call function 'delete'
+popDialog(): Invalid control: Gui_Gameplay
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (4): Unable to find object: '5424' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (6): Unable to find object: '5425' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (8): Unable to find object: '5321' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (10): Unable to find object: '5335' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (12): Unable to find object: '5426' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (14): Unable to find object: '5427' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (16): Unable to find object: '5428' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (18): Unable to find object: '5429' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Maps/Module_Gameplay/assets/scripts/Scene/Ass_Unload.cs (20): Unable to find object: '5430' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+Phyxel: Created scene but no window available.
+popDialog(): Invalid control: Gui_Instructions_Menu
+Phyxel: Created scene but no window available.
+Phyxel: Created scene but no window available.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (4): Unable to find object: '1172' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (5): Unable to find object: '1173' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (6): Unable to find object: '1174' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (7): Unable to find object: '1175' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (8): Unable to find object: '1176' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (9): Unable to find object: '1177' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (11): Unable to find object: '1178' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (13): Unable to find object: '1179' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (15): Unable to find object: '1180' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+modules/Module_Splashes/assets/scripts/Scene/Ass_Unload.cs (17): Unable to find object: '1181' attempting to call function 'getAssetId'
+Asset Manager: Failed to release asset Id '' as it does not exist.
+Phyxel: Created scene but no window available.

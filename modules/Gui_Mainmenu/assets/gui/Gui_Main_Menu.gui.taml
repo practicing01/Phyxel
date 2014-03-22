@@ -1,0 +1,96 @@
+<GuiControl
+    Name="Gui_Main_Menu"
+    Profile="gui_profile_modalless"
+    HorizSizing="relative"
+    VertSizing="relative"
+    Position="0 0"
+    Extent="800 480"
+    MinExtent="1 1"
+    Visible="1"
+	HelpTag="0">
+
+	<!-- config button -->
+<!--	<GuiButtonCtrl
+		Name="Gui_Button_Config"
+		Profile="BlueButtonProfile"
+		Text="Configure"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Configure();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="0 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />	
+-->
+	<!-- Instructions Button -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Instructions"
+		Profile="BlueButtonProfile"
+		Text="Instructions"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Instructions();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="159 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+		
+	<!-- Play -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Main_Menu_Play"
+		Profile="BlueButtonProfile"
+		Text="Play"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Play();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="328 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+
+	<!-- Editor -->
+<!--	<GuiButtonCtrl
+		Name="Gui_Button_Main_Menu_Editor"
+		Profile="BlueButtonProfile"
+		Text="Editor"
+		ButtonType="PushButton"
+		command="Gui_Main_Menu.Editor_Start();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="497 450"
+		Extent="140 30"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+-->		
+</GuiControl>

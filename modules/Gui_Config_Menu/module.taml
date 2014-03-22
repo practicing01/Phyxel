@@ -1,0 +1,12 @@
+<ModuleDefinition
+	ModuleId="Module_Gui_Config_Menu"
+	VersionId="1"
+	Description="Config Menu"
+	ScriptFile="main.cs"
+	CreateFunction="create"
+    DestroyFunction="destroy">
+        <DeclaredAssets
+            Path="assets"
+            Extension="asset.taml"
+            Recurse="true"/>		
+</ModuleDefinition>

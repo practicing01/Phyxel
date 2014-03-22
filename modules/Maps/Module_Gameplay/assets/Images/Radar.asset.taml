@@ -1,0 +1,9 @@
+<ImageAsset
+    AssetName="Image_Radar"
+    imageFile="Radar.png"
+    CellCountX="4"
+    CellCountY="1"
+    CellWidth="64"
+    CellHeight="64"
+	Optimal_Resolution="800 480"/>
+

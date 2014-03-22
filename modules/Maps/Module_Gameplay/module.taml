@@ -1,0 +1,12 @@
+<ModuleDefinition
+	ModuleId="Module_Gameplay"
+	VersionId="1"
+	Description="Gameplay Module"
+	ScriptFile="main.cs"
+	CreateFunction="create"
+    DestroyFunction="destroy">
+        <DeclaredAssets
+            Path="assets"
+            Extension="asset.taml"
+            Recurse="true"/>		
+</ModuleDefinition>

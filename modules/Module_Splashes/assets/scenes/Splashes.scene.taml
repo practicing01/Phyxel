@@ -1,0 +1,75 @@
+<Scene>
+    <Sprite
+        Size="100 62.5"
+        BodyType="Static"
+        Image="@asset=Splashes:Image_Tree"
+        Frame="0" />
+    <Sprite
+		CollisionCallback="true"
+		class="Class_Dove_Bodypart"
+		BodyPart="Head"
+        Size="1 1.0417"
+        Position="7.85 26.94"
+        BodyType="Static"
+        Image="@asset=Splashes:Image_Dove_Head"
+        Frame="0" />
+    <Sprite
+		CollisionCallback="true"
+		class="Class_Dove_Bodypart"
+		BodyPart="Leftwing"
+        Size="1.75 1.3021"
+        Position="6.23 25.16"
+        BodyType="Static"
+        Image="@asset=Splashes:Image_Dove_Leftwing"
+        Frame="0" />
+    <Sprite
+		CollisionCallback="true"
+		class="Class_Dove_Bodypart"
+		BodyPart="Rightleg"
+        Size="0.5 0.78125"
+        Position="7.62 23.59"
+        BodyType="Static"
+        Image="@asset=Splashes:Image_Dove_Rightleg"
+        Frame="0" />
+    <Sprite
+		CollisionCallback="true"
+		class="Class_Dove_Bodypart"
+		BodyPart="Rightwing"
+        Size="1.5 1.5625"
+        Position="8.56 25"
+        BodyType="Static"
+        Image="@asset=Splashes:Image_Dove_Rightwing"
+        Frame="0" />
+    <Sprite
+		CollisionCallback="true"
+		class="Class_Dove_Bodypart"
+		BodyPart="Leftleg"
+        Size="0.5 1.0417"
+        Position="6.78 23.49"
+        BodyType="Static"
+        Image="@asset=Splashes:Image_Dove_Leftleg"
+        Frame="0" />
+    <Sprite
+		CollisionCallback="true"
+		class="Class_Dove_Bodypart"
+		BodyPart="Body"
+        Size="1.5 2.6042"
+        Position="7.23 25.06"
+        BodyType="Static"
+        Image="@asset=Splashes:Image_Dove_Body"
+        Frame="0" />
+    <SceneObject
+        Size="100 10"
+        Position="15.6 -26.1"
+        BodyType="Static"
+        GatherContacts="1">
+        <SceneObject.CollisionShapes>
+            <Polygon>
+                <Point>-50 -5</Point>
+                <Point>50 -5</Point>
+                <Point>50 5</Point>
+                <Point>-50 5</Point>
+            </Polygon>
+        </SceneObject.CollisionShapes>
+    </SceneObject>
+</Scene>

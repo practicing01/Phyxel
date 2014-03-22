@@ -1,0 +1,58 @@
+<GuiControl
+    Name="Gui_Gameplay"
+    Profile="gui_profile_modalless"
+    HorizSizing="relative"
+    VertSizing="relative"
+    Position="0 0"
+    Extent="800 480"
+    MinExtent="1 1"
+    Visible="1"
+    canSaveDynamicFields="1"
+    isContainer="1"
+	HelpTag="0">
+
+		<!-- go back to main menu -->
+	<GuiButtonCtrl
+		Name="Gui_Button_Gameplay_Go_Main_Menu"
+		Profile="BlueButtonProfile"
+		Text="Main Menu"
+		ButtonType="PushButton"
+		command="Gui_Gameplay.Go_Main_Menu();"
+		canSaveDynamicFields="0"
+		isContainer="0"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="736 0"
+		Extent="64 20"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1" />
+
+		<!-- Radar -->
+<!--	<GuiSpriteCtrl
+		Name="Gui_Gameplay_Radar"
+		Profile="GuiDefaultProfile"
+		canSaveDynamicFields="1"
+		isContainer="1"
+		HorizSizing="relative"
+		VertSizing="relative"
+		Position="0 448"
+		Extent="32 32"
+		MinExtent="1 1"
+		canSave="1"
+		Visible="1"
+		Active="1"
+		hovertime="1000"
+		groupNum="-1"
+		useMouseEvents="1"
+                Image="Module_Gameplay:Image_Radar"
+                Frame="0"
+                class="Class_Radar"
+                Schedule_Rotate="0"
+                Module_ID_Parent="Module_Gameplay"/>
+-->
+</GuiControl>
