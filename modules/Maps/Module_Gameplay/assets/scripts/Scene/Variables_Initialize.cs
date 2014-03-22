@@ -49,7 +49,7 @@ function Module_Gameplay::Variables_Initialize(%this)
 
 %this.Int_Score=0;
 
-%this.Float_Enemy_Lifetime=10;
+%this.Float_Enemy_Lifetime=1;
 
 %this.Bool_Is_Playing=true;
 
